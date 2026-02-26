@@ -1,16 +1,24 @@
-# React + Vite
+# 💖 My Valentine Surprise Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A private, interactive web application built with **React (Vite)** and **Supabase** to create a special Valentine's surprise.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔐 Access Control (Authorized Personnel Only)
 
-## React Compiler
+To keep this surprise private, the application is restricted. Only authorized users can access the content:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Authentication Required**: Users must log in via a secure portal before the surprise content is revealed.
+* **Restricted Access**: Only specific users defined in the database can view the "She Said Yes!" message.
+* **Data Security**: All messages and responses are protected by **Supabase Row Level Security (RLS)**, ensuring that unauthorized users cannot read or write to the database.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+To run this project locally, follow these steps:
+
+### 1. Installation
+First, install the necessary dependencies:
+```bash
+npm install
